@@ -1,0 +1,76 @@
+.header__container{
+    height: 142px;
+    width: 1200px;
+    display: flex;
+    padding: 30px 0;
+    min-height: 140px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+   
+}
+
+.header__logo{
+    width: 74px;
+    height: 105px;
+}
+
+.header__categories{
+    width: 582px;
+    gap: 65px;
+    align-self: center;
+    margin-left: 60px;
+}
+
+
+.header__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header__icons{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.header__account{
+    display: flex;
+    flex-direction: row;
+    margin-right: 120px;
+}
+
+.header__account{
+    gap: 20px
+}
+
+.header__link, .header__link:visited, .header__link:focus{
+    color: var(--black);
+}
+
+.header__link:hover{
+    border-bottom: 1px solid var(--black);
+}
+.header__img{
+    
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.image__container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+    position: relative;
+}
+.text-overlay {
+    position: absolute;
+    color: black; /* Цвет текста */
+    font-size: 24px;
+  left: 0;
+  top: 0;
+    
+  }
